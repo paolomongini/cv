@@ -45,6 +45,16 @@
 
     #contenuto-segreto { display: none; }
 
+    /* Stile per i link nel contenuto segreto */
+    .link-cv {
+        text-decoration: underline !important; /* Sottolineato sempre */
+        transition: color 0.3s; /* Transizione morbida del colore */
+    }
+
+    .link-cv:hover {
+        color: #2196F3 !important; /* Diventa blu al passaggio del mouse */
+    }
+
     /* NUOVO STILE SKILLS SEMPLICE */
 /* NUOVO STILE SKILLS SEMPLICE */
 .skill-cat {
@@ -143,7 +153,7 @@
           </p>
 
           <p>
-            <a href="paolo_mongini_cv.pdf" target="_blank" style="text-decoration:none; color:inherit;">
+            <a href="paolo_mongini_cv.pdf" target="_blank" class="link-cv" style="color:inherit;">
               <i class="fa fa-file-pdf-o fa-fw w3-margin-right w3-large w3-text-teal"></i><b>CV-PDF</b>
             </a>
           </p>
